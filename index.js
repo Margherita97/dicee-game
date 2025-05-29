@@ -1,4 +1,4 @@
-function random1() {
+function dice1() {
 
 let randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
@@ -18,5 +18,5 @@ if (randomNumber1 === 1) {
 
 }
 
-random1();
+dice1();
 

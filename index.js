@@ -1,4 +1,4 @@
-function dice1() {
+function random1() {
 
 let randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
@@ -18,9 +18,9 @@ if (randomNumber1 === 1) {
 
 }
 
-dice1();
+const dice1 = random1();
 
-function dice2() {
+function random2() {
 
 let randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
@@ -40,5 +40,4 @@ if (randomNumber2 === 1) {
 
 }
 
-dice2();
-
+const dice2 = random2();

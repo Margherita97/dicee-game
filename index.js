@@ -1,6 +1,6 @@
-function random1() {
-
 let randomNumber1 = Math.floor(Math.random() * 6) + 1;
+
+function random1() {
 
 if (randomNumber1 === 1) {
     document.querySelector(".img1").src = "./images/dice1.png";
@@ -20,9 +20,10 @@ if (randomNumber1 === 1) {
 
 const dice1 = random1();
 
-function random2() {
 
 let randomNumber2 = Math.floor(Math.random() * 6) + 1;
+
+function random2() {
 
 if (randomNumber2 === 1) {
     document.querySelector(".img2").src = "./images/dice1.png";
@@ -41,3 +42,17 @@ if (randomNumber2 === 1) {
 }
 
 const dice2 = random2();
+
+
+function changeMessage() {
+
+    if (randomNumber1 > randomNumber2) {
+        document.getElementById("message").innerHTML = "Player 1 Wins!";
+    } else if (randomNumber1 < randomNumber2) {
+        document.getElementById("message").innerHTML = "Player 2 Wins!";
+    } else {
+        document.getElementById("message").innerHTML = "Draw!";
+    }
+}
+
+changeMessage();

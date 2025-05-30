@@ -14,4 +14,4 @@ Dicee game created using html, CSS and javaScript
 <br>
 <br>
 
-<img width="1470" alt="Screenshot 2025-05-30 alle 10 02 40" src="https://github.com/user-attachments/assets/e8b3a6a6-178b-4ffa-81b2-11d679ea9dc8" />
+<img width="1455" alt="Screenshot 2025-05-30 alle 10 02 49" src="https://github.com/user-attachments/assets/4a659d00-9e6d-47c3-93a6-23304b7e7a44" />
